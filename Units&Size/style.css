@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* change it from 16 to 10 for easy calculation */
+    font-size: 10px;
+}
+.paragraph{
+    /* font-size: 16px;
+     this is default font size by the browser 
+    we don't use px for font size but we can use px like giving border width ex. 2px solid red
+    for font size we recommend to use rem (1 root elemnt) is the default font size 1rem= 16px
+    */
+
+    /* width: 15ch; 
+    it means 15 char of widht is given */
+    
+    /* 2*10 = 20px font-size below  */
+    font-size: 2rem;  
+
+}
+.heading{
+    border: 1rem dotted red;
+    width: 50%;
+    padding: 2rem;
+    margin: 3rem;
+    
+}
